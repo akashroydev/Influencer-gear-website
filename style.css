@@ -12,6 +12,14 @@
 .display-flex{
     display: flex;
 }
+body{
+    background-color: #f8f8f8;
+}
+
+
+
+
+
 .influencer-heading{
     font-weight: 700;
     font-size: 24px;
@@ -57,6 +65,7 @@
     left: 5px;
 }
 .your-journey{
+    height: 450px;
     align-items: center;
     margin-top: 70px;
 }
@@ -71,5 +80,36 @@
 
 .logos{
     justify-content: space-around;
-    margin-top: 70px;
+    margin-top: 100px;
+    border: #AAAAAA;
 }
+.popular-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.popular-container h2{
+    font-weight: 500;
+    font-size: 28px;
+}
+.popular-container h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.card-containr{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+main{
+    margin-top: 150px;
+}
+.popular-container p{
+    font-size: 14px;
+    width: 170px;
+}
+
+
+
+
