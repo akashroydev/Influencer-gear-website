@@ -81,8 +81,8 @@ body{
 .logos{
     justify-content: space-around;
     margin-top: 100px;
-    border: #AAAAAA;
 }
+
 .popular-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -109,7 +109,42 @@ main{
     font-size: 14px;
     width: 170px;
 }
+.see-more{
+    justify-content: end;
+    margin-top: 30px;
+}
+.see-more h1{
+    font-weight: bold;
+    color: #E0C32C;
+    font-size: 16px;
+}
+.see-more i{
+    position: relative;
+    left: 5px;
+}
 
 
 
+.last-section{
+    justify-content: space-between;
+    align-items: center;
+}
+.gear-img img{
+    width: 500px;
+    height: 500px;
+}
+.Lorem h1{
+    font-size: 38px;
+}
+.Featured-products{
+    max-width: 500px;
+}
+.btn{
+    border-radius: 0%;
+}
+
+.btn i{
+    position: relative;
+    left: 8px;
+}
 
