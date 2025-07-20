@@ -77,8 +77,11 @@ body{
 
 
 
-
+.logos img{
+    word-wrap: break-word;
+}
 .logos{
+    word-wrap: break-word;
     justify-content: space-around;
     margin-top: 100px;
 }
@@ -157,3 +160,5 @@ main{
     padding: 50px; 
     margin-top: 50px;
 }
+
+
